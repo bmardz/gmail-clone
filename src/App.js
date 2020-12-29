@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="app">
       <Header />
-        <h1> Lets build gmail</h1>
     </div>
   );
 }
