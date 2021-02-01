@@ -2,7 +2,8 @@ import React from 'react'
 import './Sidebar.css';
 import { Button } from "@material-ui/core";
 import AddIcon from "@material-ui/icons/Add";
-import InboxIcon from "@material-ui/icons/inbox"
+import InboxIcon from "@material-ui/icons/Inbox";
+import SidebarOptions from "./SidebarOptions";
 
 function Sidebar() {
     return (
@@ -14,7 +15,7 @@ function Sidebar() {
                 Compose
             </Button>
 
-            <SidebarOption Icon={InboxIcon} title="Inbox" number={54} />
+            <SidebarOptions Icon={InboxIcon} title="Inbox" number={54} />
         </div>
     )
 }
